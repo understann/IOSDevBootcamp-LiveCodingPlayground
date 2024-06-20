@@ -56,3 +56,46 @@ for i in 0...myFriendList.count - 1{
 for i in myFriendList{
   print(i.name)
 }
+
+
+
+
+var myFriendName1 = "Chokdee"
+var myFriendAge1 = 20
+var myFriendIsBestFriend1 = true
+
+
+var myFriendName2 = "Api"
+var myFriendAge2 = 20
+var myFriendIsBestFriend2 = false
+
+
+var myFriendName3 = "Mookrob"
+var myFriendAge3 = 52
+var myFriendIsBestFriend3 = true
+
+
+
+struct gobgabStruct {
+  var name: String = "GG"
+  var boyfriend: String
+}
+
+
+var GG = gobgabStruct(boyfriend: "Tan")
+
+var human: [gobgabStruct] = [GG]
+
+human.append(GG)
+human.append(GG)
+human.append(GG)
+human.append(GG)
+human.append(GG)
+
+for i in 0...human.count - 1{
+  print(human[i].name)
+}
+
+for hum in human{
+  print(hum)
+}
