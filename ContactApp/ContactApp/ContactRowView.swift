@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContactRowView: View {
-  var contactPassed: ContactStruct
+  @Binding var contactPassed: ContactStruct
   
     var body: some View {
       HStack{
@@ -22,13 +22,10 @@ struct ContactRowView: View {
             .font(.title2)
           .fontWeight(.bold)
           
-          Text(contactPassed.schoool)
+          Text(contactPassed.school)
         }
         Spacer()
       }
     }
 }
 
-#Preview {
-  ContactRowView(contactPassed: ContactStruct(name: "Tester", age: 20, phone: "0000000000", mail: "test@devcommu.com", isBestFriend: true, schoool: "Chulalongkorn"))
-}

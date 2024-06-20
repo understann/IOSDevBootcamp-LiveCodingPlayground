@@ -14,5 +14,5 @@ struct ContactStruct: Identifiable{
   var phone: String
   var mail: String
   var isBestFriend: Bool
-  var schoool: String
+  var school: String
 }
