@@ -36,7 +36,6 @@ struct ContactInfoView: View {
             ContactInfoRowView(titleInfoPassed: "Phone", infoPassed: contactPassed.phone)
             Toggle("Bestfriend", isOn: $contactPassed.isBestFriend)
           }
-          
         }
         .toolbar{
           ToolbarItem{

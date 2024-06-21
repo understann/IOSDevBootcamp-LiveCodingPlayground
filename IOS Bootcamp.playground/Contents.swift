@@ -58,44 +58,28 @@ for i in myFriendList{
 }
 
 
-
-
-var myFriendName1 = "Chokdee"
-var myFriendAge1 = 20
-var myFriendIsBestFriend1 = true
-
-
-var myFriendName2 = "Api"
-var myFriendAge2 = 20
-var myFriendIsBestFriend2 = false
-
-
-var myFriendName3 = "Mookrob"
-var myFriendAge3 = 52
-var myFriendIsBestFriend3 = true
-
-
-
-struct gobgabStruct {
-  var name: String = "GG"
-  var boyfriend: String
+struct ContactStruct{
+var name: String
+var age: Int
+var school: String
+var phone: String
+var mail: String
+var isBestFriend: Bool
 }
 
+var ContactList: [ContactStruct] = [
+  ContactStruct(name: "Mookrob", age: 57, school: "DevCommu", phone: "9999999999", mail: "mookrob@devcommu.com", isBestFriend: true),
+  ContactStruct(name: "Apiphoom", age: 32, school: "Chula", phone: "9999999999", mail: "apiphoom@openmirai.com", isBestFriend: true),
+  ContactStruct(name: "Chokdee", age: 12, school: "Chulalongkorn", phone: "9999999999", mail: "chokdee@devcommu.com", isBestFriend: false),
+]
 
-var GG = gobgabStruct(boyfriend: "Tan")
+print("------- My Friend List ------- ")
 
-var human: [gobgabStruct] = [GG]
-
-human.append(GG)
-human.append(GG)
-human.append(GG)
-human.append(GG)
-human.append(GG)
-
-for i in 0...human.count - 1{
-  print(human[i].name)
+for Contact in ContactList{
+  print(" ")
+  print("Name: \(Contact.name)")
+  print("Age: \(Contact.age)")
+  print("School: \(Contact.school)")
 }
 
-for hum in human{
-  print(hum)
-}
+print("------- -------------- -------")
