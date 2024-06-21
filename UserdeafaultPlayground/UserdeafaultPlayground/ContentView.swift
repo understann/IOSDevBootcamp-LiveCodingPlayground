@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
   @AppStorage("carPark") var carPark: String = ""
+  @AppStorage("floor") var floor: String = ""
+  
+  @State var bool = true
     var body: some View {
         VStack {
           HStack{
@@ -25,14 +28,22 @@ struct ContentView: View {
             .font(.system(size: 80))
             .frame(height: 150)
           
+          Text("Floor : \(floor)")
           
           TextField("Park at", text: $carPark)
             .font(.title3)
             .padding()
             .frame(width: 300)
             .textFieldStyle(.roundedBorder)
+          
+          TextField("Floor", text: $floor)
+            .font(.title3)
+            .padding()
+            .frame(width: 300)
+            .textFieldStyle(.roundedBorder)
         }
         .padding()
+      
     }
 }
 
