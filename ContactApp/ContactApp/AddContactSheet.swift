@@ -1,46 +1,38 @@
 //
-//  ShowAddContactSheet.swift
+//  AddContactSheet.swift
 //  ContactApp
 //
-//  Created by Nattapon Howong on 20/6/2567 BE.
+//  Created by Nattapon Howong on 21/6/2567 BE.
 //
 
 import SwiftUI
 
 struct AddContactSheet: View {
+  
   @Binding var contactListPassed: [ContactStruct]
-  @State var name = ""
-  @State var age = 0
-  @State var phone = ""
-  @State var mail = ""
-  @State var isBestFriend = false
-  @State var school = ""
+  
+  @State var newContact: ContactStruct = ContactStruct(name: "", age: 0, phone: "", mail: "", isBestFriend: false, school: "")
   
     var body: some View {
-      NavigationStack {
-        List {
-          TextField("Name", text: $name )
-          Picker("Age", selection: $age) {
-            ForEach (0..<100){ number in
+      NavigationStack{
+        List{
+          TextField("Name", text: $newContact.name)
+          Picker("Age", selection: $newContact.age){
+            ForEach(0..<101){number in
               Text("\(number)")
             }
           }.pickerStyle(.menu)
-          
-          TextField("Phone", text: $phone)
-            .keyboardType(.numberPad)
-          
-          TextField("Mail", text: $mail)
-          
-          TextField("School", text: $school)
-          
-          Toggle("is Bestfriend", isOn: $isBestFriend)
+          TextField("Phone", text: $newContact.phone)
+          TextField("Mail", text: $newContact.mail)
+          TextField("School", text: $newContact.school)
+          Toggle("isBestFriend", isOn: $newContact.isBestFriend)
         }
         .navigationTitle("Add Contact")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar{
           ToolbarItem{
-            Button("Add"){
-              contactListPassed.append(ContactStruct(name: name, age: age, phone: phone, mail: mail, isBestFriend: isBestFriend, school: school))
+            Button("Save"){
+              contactListPassed.append(newContact)
             }
           }
         }
@@ -48,11 +40,6 @@ struct AddContactSheet: View {
     }
 }
 
-
-
-//var name: String
-//var age: Int
-//var phone: String
-//var mail: String
-//var isBestFriend: Bool
-//var school: String
+//#Preview {
+//  AddContactSheet(contactListPassed: <#Binding<[ContactStruct]>#>)
+//}

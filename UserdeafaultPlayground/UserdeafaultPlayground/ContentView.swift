@@ -14,6 +14,7 @@ struct ContentView: View {
   @State var bool = true
     var body: some View {
         VStack {
+          
           HStack{
             Image(systemName: "car")
               .resizable()
@@ -22,7 +23,6 @@ struct ContentView: View {
             Text("Where is my Car?")
               .font(.title3)
           }
-          
           
           Text(carPark)
             .font(.system(size: 80))
@@ -41,6 +41,7 @@ struct ContentView: View {
             .padding()
             .frame(width: 300)
             .textFieldStyle(.roundedBorder)
+          
         }
         .padding()
       

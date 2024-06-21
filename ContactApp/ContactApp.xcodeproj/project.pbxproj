@@ -7,34 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47051C4E2C249760007355AE /* AddContactSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C4D2C249760007355AE /* AddContactSheet.swift */; };
-		47051C502C249822007355AE /* EditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C4F2C249822007355AE /* EditContactView.swift */; };
-		47D187FE2C23E96E000E22EC /* ContactAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D187FD2C23E96E000E22EC /* ContactAppApp.swift */; };
-		47D188002C23E96E000E22EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D187FF2C23E96E000E22EC /* ContentView.swift */; };
-		47D188022C23E96F000E22EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D188012C23E96F000E22EC /* Assets.xcassets */; };
-		47D188052C23E96F000E22EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D188042C23E96F000E22EC /* Preview Assets.xcassets */; };
-		47D1880C2C23E999000E22EC /* ContactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1880B2C23E999000E22EC /* ContactStruct.swift */; };
-		47D1880E2C23ECDE000E22EC /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1880D2C23ECDE000E22EC /* ContactRowView.swift */; };
-		47D188102C24010D000E22EC /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1880F2C24010D000E22EC /* ContactInfoView.swift */; };
-		47D188122C245485000E22EC /* ContactInfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D188112C245485000E22EC /* ContactInfoRowView.swift */; };
+		47051C922C25C166007355AE /* ContactAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C912C25C166007355AE /* ContactAppApp.swift */; };
+		47051C942C25C166007355AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C932C25C166007355AE /* ContentView.swift */; };
+		47051C962C25C167007355AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47051C952C25C167007355AE /* Assets.xcassets */; };
+		47051C992C25C167007355AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47051C982C25C167007355AE /* Preview Assets.xcassets */; };
+		47051CA02C25C224007355AE /* ContactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C9F2C25C224007355AE /* ContactStruct.swift */; };
+		47051CA22C25C579007355AE /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CA12C25C579007355AE /* ContactRowView.swift */; };
+		47051CA42C25CABC007355AE /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CA32C25CABC007355AE /* ContactInfoView.swift */; };
+		47051CA62C25CE36007355AE /* ContactInfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CA52C25CE36007355AE /* ContactInfoRowView.swift */; };
+		47051CA82C25D0FC007355AE /* AddContactSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CA72C25D0FC007355AE /* AddContactSheet.swift */; };
+		47051CAA2C25D74B007355AE /* EditContactSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051CA92C25D74B007355AE /* EditContactSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47051C4D2C249760007355AE /* AddContactSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactSheet.swift; sourceTree = "<group>"; };
-		47051C4F2C249822007355AE /* EditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactView.swift; sourceTree = "<group>"; };
-		47D187FA2C23E96E000E22EC /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47D187FD2C23E96E000E22EC /* ContactAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppApp.swift; sourceTree = "<group>"; };
-		47D187FF2C23E96E000E22EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		47D188012C23E96F000E22EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		47D188042C23E96F000E22EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		47D1880B2C23E999000E22EC /* ContactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStruct.swift; sourceTree = "<group>"; };
-		47D1880D2C23ECDE000E22EC /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
-		47D1880F2C24010D000E22EC /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
-		47D188112C245485000E22EC /* ContactInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoRowView.swift; sourceTree = "<group>"; };
+		47051C8E2C25C166007355AE /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47051C912C25C166007355AE /* ContactAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppApp.swift; sourceTree = "<group>"; };
+		47051C932C25C166007355AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47051C952C25C167007355AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47051C982C25C167007355AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47051C9F2C25C224007355AE /* ContactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStruct.swift; sourceTree = "<group>"; };
+		47051CA12C25C579007355AE /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
+		47051CA32C25CABC007355AE /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		47051CA52C25CE36007355AE /* ContactInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoRowView.swift; sourceTree = "<group>"; };
+		47051CA72C25D0FC007355AE /* AddContactSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactSheet.swift; sourceTree = "<group>"; };
+		47051CA92C25D74B007355AE /* EditContactSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47D187F72C23E96E000E22EC /* Frameworks */ = {
+		47051C8B2C25C166007355AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,43 +44,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		47D187F12C23E96E000E22EC = {
+		47051C852C25C166007355AE = {
 			isa = PBXGroup;
 			children = (
-				47D187FC2C23E96E000E22EC /* ContactApp */,
-				47D187FB2C23E96E000E22EC /* Products */,
+				47051C902C25C166007355AE /* ContactApp */,
+				47051C8F2C25C166007355AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		47D187FB2C23E96E000E22EC /* Products */ = {
+		47051C8F2C25C166007355AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47D187FA2C23E96E000E22EC /* ContactApp.app */,
+				47051C8E2C25C166007355AE /* ContactApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47D187FC2C23E96E000E22EC /* ContactApp */ = {
+		47051C902C25C166007355AE /* ContactApp */ = {
 			isa = PBXGroup;
 			children = (
-				47D187FD2C23E96E000E22EC /* ContactAppApp.swift */,
-				47D187FF2C23E96E000E22EC /* ContentView.swift */,
-				47D1880D2C23ECDE000E22EC /* ContactRowView.swift */,
-				47D1880F2C24010D000E22EC /* ContactInfoView.swift */,
-				47D188112C245485000E22EC /* ContactInfoRowView.swift */,
-				47051C4D2C249760007355AE /* AddContactSheet.swift */,
-				47051C4F2C249822007355AE /* EditContactView.swift */,
-				47D1880B2C23E999000E22EC /* ContactStruct.swift */,
-				47D188012C23E96F000E22EC /* Assets.xcassets */,
-				47D188032C23E96F000E22EC /* Preview Content */,
+				47051C912C25C166007355AE /* ContactAppApp.swift */,
+				47051C9F2C25C224007355AE /* ContactStruct.swift */,
+				47051C932C25C166007355AE /* ContentView.swift */,
+				47051CA12C25C579007355AE /* ContactRowView.swift */,
+				47051CA32C25CABC007355AE /* ContactInfoView.swift */,
+				47051CA52C25CE36007355AE /* ContactInfoRowView.swift */,
+				47051CA72C25D0FC007355AE /* AddContactSheet.swift */,
+				47051CA92C25D74B007355AE /* EditContactSheet.swift */,
+				47051C952C25C167007355AE /* Assets.xcassets */,
+				47051C972C25C167007355AE /* Preview Content */,
 			);
 			path = ContactApp;
 			sourceTree = "<group>";
 		};
-		47D188032C23E96F000E22EC /* Preview Content */ = {
+		47051C972C25C167007355AE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				47D188042C23E96F000E22EC /* Preview Assets.xcassets */,
+				47051C982C25C167007355AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,13 +88,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47D187F92C23E96E000E22EC /* ContactApp */ = {
+		47051C8D2C25C166007355AE /* ContactApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47D188082C23E96F000E22EC /* Build configuration list for PBXNativeTarget "ContactApp" */;
+			buildConfigurationList = 47051C9C2C25C167007355AE /* Build configuration list for PBXNativeTarget "ContactApp" */;
 			buildPhases = (
-				47D187F62C23E96E000E22EC /* Sources */,
-				47D187F72C23E96E000E22EC /* Frameworks */,
-				47D187F82C23E96E000E22EC /* Resources */,
+				47051C8A2C25C166007355AE /* Sources */,
+				47051C8B2C25C166007355AE /* Frameworks */,
+				47051C8C2C25C166007355AE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -102,25 +102,25 @@
 			);
 			name = ContactApp;
 			productName = ContactApp;
-			productReference = 47D187FA2C23E96E000E22EC /* ContactApp.app */;
+			productReference = 47051C8E2C25C166007355AE /* ContactApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		47D187F22C23E96E000E22EC /* Project object */ = {
+		47051C862C25C166007355AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					47D187F92C23E96E000E22EC = {
+					47051C8D2C25C166007355AE = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 47D187F52C23E96E000E22EC /* Build configuration list for PBXProject "ContactApp" */;
+			buildConfigurationList = 47051C892C25C166007355AE /* Build configuration list for PBXProject "ContactApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,48 +128,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 47D187F12C23E96E000E22EC;
-			productRefGroup = 47D187FB2C23E96E000E22EC /* Products */;
+			mainGroup = 47051C852C25C166007355AE;
+			productRefGroup = 47051C8F2C25C166007355AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47D187F92C23E96E000E22EC /* ContactApp */,
+				47051C8D2C25C166007355AE /* ContactApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		47D187F82C23E96E000E22EC /* Resources */ = {
+		47051C8C2C25C166007355AE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47D188052C23E96F000E22EC /* Preview Assets.xcassets in Resources */,
-				47D188022C23E96F000E22EC /* Assets.xcassets in Resources */,
+				47051C992C25C167007355AE /* Preview Assets.xcassets in Resources */,
+				47051C962C25C167007355AE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47D187F62C23E96E000E22EC /* Sources */ = {
+		47051C8A2C25C166007355AE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47D188002C23E96E000E22EC /* ContentView.swift in Sources */,
-				47D1880C2C23E999000E22EC /* ContactStruct.swift in Sources */,
-				47051C4E2C249760007355AE /* AddContactSheet.swift in Sources */,
-				47D188122C245485000E22EC /* ContactInfoRowView.swift in Sources */,
-				47D1880E2C23ECDE000E22EC /* ContactRowView.swift in Sources */,
-				47051C502C249822007355AE /* EditContactView.swift in Sources */,
-				47D187FE2C23E96E000E22EC /* ContactAppApp.swift in Sources */,
-				47D188102C24010D000E22EC /* ContactInfoView.swift in Sources */,
+				47051CA82C25D0FC007355AE /* AddContactSheet.swift in Sources */,
+				47051C942C25C166007355AE /* ContentView.swift in Sources */,
+				47051CA02C25C224007355AE /* ContactStruct.swift in Sources */,
+				47051CA62C25CE36007355AE /* ContactInfoRowView.swift in Sources */,
+				47051CAA2C25D74B007355AE /* EditContactSheet.swift in Sources */,
+				47051CA22C25C579007355AE /* ContactRowView.swift in Sources */,
+				47051C922C25C166007355AE /* ContactAppApp.swift in Sources */,
+				47051CA42C25CABC007355AE /* ContactInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		47D188062C23E96F000E22EC /* Debug */ = {
+		47051C9A2C25C167007355AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		47D188072C23E96F000E22EC /* Release */ = {
+		47051C9B2C25C167007355AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +288,7 @@
 			};
 			name = Release;
 		};
-		47D188092C23E96F000E22EC /* Debug */ = {
+		47051C9D2C25C167007355AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -316,7 +316,7 @@
 			};
 			name = Debug;
 		};
-		47D1880A2C23E96F000E22EC /* Release */ = {
+		47051C9E2C25C167007355AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -347,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47D187F52C23E96E000E22EC /* Build configuration list for PBXProject "ContactApp" */ = {
+		47051C892C25C166007355AE /* Build configuration list for PBXProject "ContactApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47D188062C23E96F000E22EC /* Debug */,
-				47D188072C23E96F000E22EC /* Release */,
+				47051C9A2C25C167007355AE /* Debug */,
+				47051C9B2C25C167007355AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47D188082C23E96F000E22EC /* Build configuration list for PBXNativeTarget "ContactApp" */ = {
+		47051C9C2C25C167007355AE /* Build configuration list for PBXNativeTarget "ContactApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47D188092C23E96F000E22EC /* Debug */,
-				47D1880A2C23E96F000E22EC /* Release */,
+				47051C9D2C25C167007355AE /* Debug */,
+				47051C9E2C25C167007355AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 47D187F22C23E96E000E22EC /* Project object */;
+	rootObject = 47051C862C25C166007355AE /* Project object */;
 }

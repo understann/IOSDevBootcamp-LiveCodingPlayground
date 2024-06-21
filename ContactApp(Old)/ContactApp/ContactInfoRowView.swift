@@ -2,30 +2,26 @@
 //  ContactInfoRowView.swift
 //  ContactApp
 //
-//  Created by Nattapon Howong on 21/6/2567 BE.
+//  Created by Nattapon Howong on 20/6/2567 BE.
 //
 
 import SwiftUI
 
 struct ContactInfoRowView: View {
-  
-  var titlePassed: String
-  var informationPassed: String
-  
-  
+  var titleInfoPassed: String
+  var infoPassed: String
     var body: some View {
       HStack {
         VStack(alignment: .leading){
-          Text(titlePassed)
+          Text(titleInfoPassed)
             .bold()
-          Text(informationPassed)
+          Text(infoPassed)
         }
-        
         Spacer()
       }
     }
 }
 
 #Preview {
-  ContactInfoRowView(titlePassed: "Name", informationPassed: "Chokdee")
+  ContactInfoRowView(titleInfoPassed: "Phone", infoPassed: "0999999999")
 }

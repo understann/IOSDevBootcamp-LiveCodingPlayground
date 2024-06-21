@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		47051C782C257360007355AE /* PhotoPickerPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C772C257360007355AE /* PhotoPickerPlaygroundApp.swift */; };
-		47051C7A2C257360007355AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C792C257360007355AE /* ContentView.swift */; };
-		47051C7C2C257363007355AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47051C7B2C257363007355AE /* Assets.xcassets */; };
-		47051C7F2C257363007355AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47051C7E2C257363007355AE /* Preview Assets.xcassets */; };
+		47051C4E2C249760007355AE /* AddContactSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C4D2C249760007355AE /* AddContactSheet.swift */; };
+		47051C502C249822007355AE /* EditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47051C4F2C249822007355AE /* EditContactView.swift */; };
+		47D187FE2C23E96E000E22EC /* ContactAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D187FD2C23E96E000E22EC /* ContactAppApp.swift */; };
+		47D188002C23E96E000E22EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D187FF2C23E96E000E22EC /* ContentView.swift */; };
+		47D188022C23E96F000E22EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D188012C23E96F000E22EC /* Assets.xcassets */; };
+		47D188052C23E96F000E22EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D188042C23E96F000E22EC /* Preview Assets.xcassets */; };
+		47D1880C2C23E999000E22EC /* ContactStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1880B2C23E999000E22EC /* ContactStruct.swift */; };
+		47D1880E2C23ECDE000E22EC /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1880D2C23ECDE000E22EC /* ContactRowView.swift */; };
+		47D188102C24010D000E22EC /* ContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1880F2C24010D000E22EC /* ContactInfoView.swift */; };
+		47D188122C245485000E22EC /* ContactInfoRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D188112C245485000E22EC /* ContactInfoRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47051C742C257360007355AE /* PhotoPickerPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPickerPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		47051C772C257360007355AE /* PhotoPickerPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerPlaygroundApp.swift; sourceTree = "<group>"; };
-		47051C792C257360007355AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		47051C7B2C257363007355AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		47051C7E2C257363007355AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47051C4D2C249760007355AE /* AddContactSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactSheet.swift; sourceTree = "<group>"; };
+		47051C4F2C249822007355AE /* EditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactView.swift; sourceTree = "<group>"; };
+		47D187FA2C23E96E000E22EC /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D187FD2C23E96E000E22EC /* ContactAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppApp.swift; sourceTree = "<group>"; };
+		47D187FF2C23E96E000E22EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		47D188012C23E96F000E22EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47D188042C23E96F000E22EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		47D1880B2C23E999000E22EC /* ContactStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactStruct.swift; sourceTree = "<group>"; };
+		47D1880D2C23ECDE000E22EC /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
+		47D1880F2C24010D000E22EC /* ContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoView.swift; sourceTree = "<group>"; };
+		47D188112C245485000E22EC /* ContactInfoRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47051C712C257360007355AE /* Frameworks */ = {
+		47D187F72C23E96E000E22EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +44,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		47051C6B2C257360007355AE = {
+		47D187F12C23E96E000E22EC = {
 			isa = PBXGroup;
 			children = (
-				47051C762C257360007355AE /* PhotoPickerPlayground */,
-				47051C752C257360007355AE /* Products */,
+				47D187FC2C23E96E000E22EC /* ContactApp */,
+				47D187FB2C23E96E000E22EC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		47051C752C257360007355AE /* Products */ = {
+		47D187FB2C23E96E000E22EC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				47051C742C257360007355AE /* PhotoPickerPlayground.app */,
+				47D187FA2C23E96E000E22EC /* ContactApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47051C762C257360007355AE /* PhotoPickerPlayground */ = {
+		47D187FC2C23E96E000E22EC /* ContactApp */ = {
 			isa = PBXGroup;
 			children = (
-				47051C772C257360007355AE /* PhotoPickerPlaygroundApp.swift */,
-				47051C792C257360007355AE /* ContentView.swift */,
-				47051C7B2C257363007355AE /* Assets.xcassets */,
-				47051C7D2C257363007355AE /* Preview Content */,
+				47D187FD2C23E96E000E22EC /* ContactAppApp.swift */,
+				47D187FF2C23E96E000E22EC /* ContentView.swift */,
+				47D1880D2C23ECDE000E22EC /* ContactRowView.swift */,
+				47D1880F2C24010D000E22EC /* ContactInfoView.swift */,
+				47D188112C245485000E22EC /* ContactInfoRowView.swift */,
+				47051C4D2C249760007355AE /* AddContactSheet.swift */,
+				47051C4F2C249822007355AE /* EditContactView.swift */,
+				47D1880B2C23E999000E22EC /* ContactStruct.swift */,
+				47D188012C23E96F000E22EC /* Assets.xcassets */,
+				47D188032C23E96F000E22EC /* Preview Content */,
 			);
-			path = PhotoPickerPlayground;
+			path = ContactApp;
 			sourceTree = "<group>";
 		};
-		47051C7D2C257363007355AE /* Preview Content */ = {
+		47D188032C23E96F000E22EC /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				47051C7E2C257363007355AE /* Preview Assets.xcassets */,
+				47D188042C23E96F000E22EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +88,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		47051C732C257360007355AE /* PhotoPickerPlayground */ = {
+		47D187F92C23E96E000E22EC /* ContactApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 47051C822C257363007355AE /* Build configuration list for PBXNativeTarget "PhotoPickerPlayground" */;
+			buildConfigurationList = 47D188082C23E96F000E22EC /* Build configuration list for PBXNativeTarget "ContactApp" */;
 			buildPhases = (
-				47051C702C257360007355AE /* Sources */,
-				47051C712C257360007355AE /* Frameworks */,
-				47051C722C257360007355AE /* Resources */,
+				47D187F62C23E96E000E22EC /* Sources */,
+				47D187F72C23E96E000E22EC /* Frameworks */,
+				47D187F82C23E96E000E22EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PhotoPickerPlayground;
-			productName = PhotoPickerPlayground;
-			productReference = 47051C742C257360007355AE /* PhotoPickerPlayground.app */;
+			name = ContactApp;
+			productName = ContactApp;
+			productReference = 47D187FA2C23E96E000E22EC /* ContactApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		47051C6C2C257360007355AE /* Project object */ = {
+		47D187F22C23E96E000E22EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					47051C732C257360007355AE = {
+					47D187F92C23E96E000E22EC = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = 47051C6F2C257360007355AE /* Build configuration list for PBXProject "PhotoPickerPlayground" */;
+			buildConfigurationList = 47D187F52C23E96E000E22EC /* Build configuration list for PBXProject "ContactApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +128,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 47051C6B2C257360007355AE;
-			productRefGroup = 47051C752C257360007355AE /* Products */;
+			mainGroup = 47D187F12C23E96E000E22EC;
+			productRefGroup = 47D187FB2C23E96E000E22EC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47051C732C257360007355AE /* PhotoPickerPlayground */,
+				47D187F92C23E96E000E22EC /* ContactApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		47051C722C257360007355AE /* Resources */ = {
+		47D187F82C23E96E000E22EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47051C7F2C257363007355AE /* Preview Assets.xcassets in Resources */,
-				47051C7C2C257363007355AE /* Assets.xcassets in Resources */,
+				47D188052C23E96F000E22EC /* Preview Assets.xcassets in Resources */,
+				47D188022C23E96F000E22EC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		47051C702C257360007355AE /* Sources */ = {
+		47D187F62C23E96E000E22EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47051C7A2C257360007355AE /* ContentView.swift in Sources */,
-				47051C782C257360007355AE /* PhotoPickerPlaygroundApp.swift in Sources */,
+				47D188002C23E96E000E22EC /* ContentView.swift in Sources */,
+				47D1880C2C23E999000E22EC /* ContactStruct.swift in Sources */,
+				47051C4E2C249760007355AE /* AddContactSheet.swift in Sources */,
+				47D188122C245485000E22EC /* ContactInfoRowView.swift in Sources */,
+				47D1880E2C23ECDE000E22EC /* ContactRowView.swift in Sources */,
+				47051C502C249822007355AE /* EditContactView.swift in Sources */,
+				47D187FE2C23E96E000E22EC /* ContactAppApp.swift in Sources */,
+				47D188102C24010D000E22EC /* ContactInfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		47051C802C257363007355AE /* Debug */ = {
+		47D188062C23E96F000E22EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +232,7 @@
 			};
 			name = Debug;
 		};
-		47051C812C257363007355AE /* Release */ = {
+		47D188072C23E96F000E22EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,14 +288,14 @@
 			};
 			name = Release;
 		};
-		47051C832C257363007355AE /* Debug */ = {
+		47D188092C23E96F000E22EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PhotoPickerPlayground/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ContactApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -284,7 +308,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.PhotoPickerPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.ContactApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,14 +316,14 @@
 			};
 			name = Debug;
 		};
-		47051C842C257363007355AE /* Release */ = {
+		47D1880A2C23E96F000E22EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PhotoPickerPlayground/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ContactApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -312,7 +336,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = personal.PhotoPickerPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = personal.ContactApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47051C6F2C257360007355AE /* Build configuration list for PBXProject "PhotoPickerPlayground" */ = {
+		47D187F52C23E96E000E22EC /* Build configuration list for PBXProject "ContactApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47051C802C257363007355AE /* Debug */,
-				47051C812C257363007355AE /* Release */,
+				47D188062C23E96F000E22EC /* Debug */,
+				47D188072C23E96F000E22EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		47051C822C257363007355AE /* Build configuration list for PBXNativeTarget "PhotoPickerPlayground" */ = {
+		47D188082C23E96F000E22EC /* Build configuration list for PBXNativeTarget "ContactApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47051C832C257363007355AE /* Debug */,
-				47051C842C257363007355AE /* Release */,
+				47D188092C23E96F000E22EC /* Debug */,
+				47D1880A2C23E96F000E22EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 47051C6C2C257360007355AE /* Project object */;
+	rootObject = 47D187F22C23E96E000E22EC /* Project object */;
 }

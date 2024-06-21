@@ -2,58 +2,55 @@
 //  ContactInfoView.swift
 //  ContactApp
 //
-//  Created by Nattapon Howong on 20/6/2567 BE.
+//  Created by Nattapon Howong on 21/6/2567 BE.
 //
 
-import PhotosUI
 import SwiftUI
 
 struct ContactInfoView: View {
   
   @Binding var contactPassed: ContactStruct
   
-  @State var showEditContactSheet: Bool = false
+  @State var showEditContactSheet = false
   
-    var body: some View {
-      NavigationStack {
-        List(){
-          VStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/){
-            Image(systemName: "person.crop.circle")
-              .resizable()
-            .frame(width: 200,height: 200)
-            
-            Text(contactPassed.name)
-              .font(.title)
-              .bold()
-          }
-          .padding()
-          .frame(maxWidth: .infinity)
-            .listRowSeparator(.hidden)
+  var body: some View {
+    NavigationStack{
+      List{
+        VStack (alignment: .center) {
+          Image(systemName: "person.crop.circle")
+            .resizable()
+            .frame(width: 200, height: 200)
           
-          Section("Detail") {
-            ContactInfoRowView(titleInfoPassed: "Age", infoPassed: contactPassed.age.description)
-            ContactInfoRowView(titleInfoPassed: "School", infoPassed: contactPassed.school)
-            ContactInfoRowView(titleInfoPassed: "Phone", infoPassed: contactPassed.phone)
-            Toggle("Bestfriend", isOn: $contactPassed.isBestFriend)
-          }
+          Text(contactPassed.name)
+            .font(.title)
+            .bold()
         }
-        .toolbar{
-          ToolbarItem{
-            Button{
-              showEditContactSheet.toggle()
-            } label: {
-              Image(systemName: "square.and.pencil")
-            }
+        .frame(maxWidth: .infinity)
+        .padding()
+        
+        Section("Detail"){
+          ContactInfoRowView(titlePassed: "Age", informationPassed: contactPassed.age.description)
+          ContactInfoRowView(titlePassed: "School", informationPassed: contactPassed.school)
+          ContactInfoRowView(titlePassed: "Phone", informationPassed: contactPassed.phone)
+          ContactInfoRowView(titlePassed: "Mail", informationPassed: contactPassed.mail)
+        }
+      }
+      .toolbar{
+        ToolbarItem{
+          Button("Edit"){
+            showEditContactSheet.toggle()
           }
         }
       }
-      .sheet(isPresented: $showEditContactSheet, content: {
-        EditContactView(contactPassed: $contactPassed)
-      })
     }
+    .sheet(isPresented: $showEditContactSheet, content: {
+      EditContactSheet(contactPassed: $contactPassed)
+    })
+  }
 }
 
 #Preview {
-  @State  var previewContact = ContactStruct(name: "Tan DevCommu", age: 18, phone: "0999999999", mail: "tan@devcommu.com", isBestFriend: true, school: "Chula")
-  return ContactInfoView(contactPassed: $previewContact)
+  @State var contactPreview = ContactStruct(name: "Tan", age: 15, phone: "099999999", mail: "tan@devcommu.com", isBestFriend: true, school: "DevCommu")
+  
+  return ContactInfoView(contactPassed: $contactPreview)
 }
